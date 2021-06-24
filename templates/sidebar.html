@@ -1,0 +1,15 @@
+{% load static %}
+<div class="border-right border-warning h-100">
+    <div class="text-center">
+        <img class="img-fluid border-white rounded-circle mt-5" src="{% static 'images/zahidul_islam.jpg' %}" alt="" height="100px" width="100px">
+        <h2 class="mt-3"><a class="text-white link" href="{% url 'home' %}">Zahidul Islam</a></h2>
+    </div>
+    <hr class="border-white">
+    <nav class="nav flex-column text-center">
+        <a class="nav-link active" href="{% url 'home' %}">Home</a>
+        <a class="nav-link" href="{% url 'skill' %}">Skills</a>
+        <a class="nav-link" href="{% url 'home' %}">Portfolio</a>
+        <a class="nav-link" href="{% url 'service' %}">Services</a>
+        <a class="nav-link" href="{% url 'contact' %}">Contact</a>
+    </nav>
+</div> 

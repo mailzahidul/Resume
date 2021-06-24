@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load static %}
+    {% block content %}
+    <div class="text-center">
+        <img class="img-thumbnail" src="{% static 'images/zahidul_islam.jpg' %}" alt="" height="200px" width="200px">
+    </div>
+    <div class="px-5">
+        <h2>Hello</h2> 
+        <p class="small px-3" style="line-height: 2rem;  text-indent:50px">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga qui autem vero labore commodi ratione nobis <span class="text-warning">itaque quo facere doloremque iure repellat </span>corrupti mollitia aliquam quam eaque, optio ea ad? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, dicta vitae amet culpa obcaecati nobis doloribus laboriosam ab doloremque consectetur, sunt exercitationem molestias repellendus tenetur reprehenderit cumque natus? Quae, quibusdam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut laborum nihil molestiae, reiciendis neque voluptas optio aliquid incidunt modi nulla delectus error dolor veniam consectetur molestias nostrum nam iste odit.</p>
+        <p class="small px-3" style="line-height: 2rem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga qui autem vero labore commodi ratione nobis itaque quo facere doloremque iure repellat corrupti mollitia aliquam quam eaque, optio ea ad? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, dicta vitae amet culpa obcaecati nobis doloribus laboriosam ab doloremque consectetur, sunt exercitationem molestias repellendus tenetur reprehenderit cumque natus? Quae, quibusdam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut laborum nihil molestiae, reiciendis neque voluptas optio aliquid incidunt modi nulla delectus error dolor veniam consectetur molestias nostrum nam iste odit.</p>
+    </div>
+    <div class="text-center my-5">
+        <a href="{% url 'service' %}" class="btn btn-outline-warning mx-2">Hire me</a>
+        <a href="" class="btn btn-outline-info mx-2">Contact</a>
+    </div>
+
+
+    {% endblock %}
